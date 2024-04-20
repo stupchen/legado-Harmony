@@ -15,22 +15,22 @@ struct Main {
     Tabs({ barPosition: BarPosition.End }) {
 
       TabContent() {
-        Text('书架')
+        Text('书架') //替换书架UI
       }
       .tabBar('书架')
 
       TabContent() {
-        Text('发现')
+        Text('发现') //替换发现UI
       }
       .tabBar('发现')
 
       TabContent() {
-        Text('订阅')
+        Text('订阅')  //替换订阅UI
       }
       .tabBar('订阅')
 
       TabContent() {
-        Text('我的')
+        Text('我的') //替换我的UI
       }
       .tabBar('我的')
 
